@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Odor Mean Chey";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 80%;
+  text-align: center;
+  src: url("./assets/fonts/OdorMeanChey-Regular.ttf") format("woff2");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-odor: "Odor Mean Chey", "sans-serif";
+  --color-nav-blue: #8dc4ff;
+}
