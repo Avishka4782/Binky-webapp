@@ -9,6 +9,7 @@
     "lint": "eslint . --fix",
     "preview": "vite preview",
     "prepare": "husky",
+    "tailwind:init": "tailwindcss init",
     "format": "prettier  \"src/**/*.{ts,tsx,js,json}\" --ignore-path .gitignore",
     "format:check": "yarn format --check",
     "format:write": "yarn format --write",
@@ -19,7 +20,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.4.1",
-    "tailwindcss": "^4.1.1"
+    "tailwindcss": "^4.1.8",
+    "tailwindcss-motion": "^1.1.0",
+    "tailwindcss-patterns": "^0.1.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",

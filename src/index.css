@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @font-face {
   font-family: "Odor Mean Chey";
   font-weight: 400;
@@ -7,9 +9,44 @@
   src: url("./assets/fonts/OdorMeanChey-Regular.ttf") format("woff2");
 }
 
-@import "tailwindcss";
+@font-face {
+  font-family: "Snow Blue";
+  font-weight: 400;
+  font-size: 208.08px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  src: url("./assets/fonts/SnowBlue-OVVwd.otf") format("woff2");
+}
+@font-face {
+  font-family: "Odor Mean Chey";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50%;
+  text-align: center;
+  src: url("./assets/fonts/OdorMeanChey-Regular.ttf") format("woff2");
+}
+
+@theme {
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+}
 
 @theme {
   --font-odor: "Odor Mean Chey", "sans-serif";
+  --font-odorr: "Odor Mean Chey", "sans-serif";
+  --font-snow: "Snow Blue", "sans-serif";
   --color-nav-blue: #8dc4ff;
+}
+html,
+body {
+  overflow-x: hidden;
 }

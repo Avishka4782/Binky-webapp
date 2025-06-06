@@ -5,7 +5,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="md:bg-nav-blue mx-auto mt-5 flex w-full max-w-[1320px] flex-col items-center rounded-[40px] bg-white p-4 md:mt-5 md:h-[95px] md:flex-row md:justify-between">
+    <header className="md:bg-nav-blue mx-auto mt-5 flex w-full max-w-[1320px] flex-col items-center overflow-x-hidden rounded-[40px] bg-white p-4 md:mt-5 md:h-[95px] md:flex-row md:justify-between">
       {/* Left section: Logo */}
       <div className="flex w-full basis-[20%] items-center justify-between md:w-1/2 md:justify-start">
         <img
