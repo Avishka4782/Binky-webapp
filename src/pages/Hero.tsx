@@ -23,11 +23,11 @@ function Hero() {
         </div>
       </div>
 
-      <div className="absolute top-87 left-35 z-20 w-39.5">
+      <div className="absolute top-105 left-42 z-20 w-39.5">
         <img src="/snowman.webp" alt="SnowMan" />
       </div>
 
-      <div className="h- 100 absolute top-57 left-9/12 z-20 w-80">
+      <div className="absolute top-70 left-9/12 z-20 h-100 w-80">
         <img src="/snowrabbit.webp" alt="SnowMan" className="h-100" />
       </div>
 

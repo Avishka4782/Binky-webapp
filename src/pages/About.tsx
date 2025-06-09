@@ -1,23 +1,39 @@
 function About() {
   return (
-    <section
-      className="bg-nav-blue relative flex h-173 w-full flex-col bg-cover"
-      style={{ backgroundImage: "url('/bg0.webp')" }}
-    >
+    <section className="bg-nav-blue relative flex h-173 w-full flex-col bg-cover">
       <div className="font-snow relative mt-3">
-        <p className="pt-35 text-center text-6xl text-black">ABOUT</p>
-      </div>
-      <div className="font-snow relative h-fit">
-        <div>
-          <img src="/frame.webp" alt="frame" className="h-125 w-[105%]" />
-        </div>
+        <p className="pt-35 text-center text-6xl">ABOUT</p>
       </div>
 
-      {/*<div className="relative h-64 w-64 bg-gray-200">
-        <div className="absolute top-4 left-4 h-20 w-20 bg-blue-500">
-          I’m positioned inside the parent
+      <div className="relative mx-auto w-full">
+        {/* Smaller background div centered inside frame */}
+        <div className="absolute inset-0 top-15 left-10 z-0 ml-7 flex">
+          <div className="flex h-80 w-[90%] flex-row rounded-md bg-blue-200 shadow-md">
+            <div className="relative top-20 left-100 flex w-[680px] flex-col">
+              <div className="font-odor mb-8 text-center">
+                Welcome to Binky, where innovation meets charm! At Binky, we’re inspired by the
+                agility and energy of a playful bunny, delivering a token experience that’s as
+                dynamic as it is secure. Designed to empower and engage our community, Binky
+                combines cutting-edge technology with a lighthearted touch, making digital finance
+                approachable and fun. Hop on board and explore a world where every token brings new
+                opportunities
+              </div>
+              <div className="font-snow text-center text-2xl uppercase">join community</div>
+            </div>
+          </div>
         </div>
-      </div> */}
+
+        <div className="absolute top-26 left-28 w-50">
+          <img src="/rabbit01.webp" alt="Rabbit" />
+        </div>
+
+        {/* Frame image on top f backgound*/}
+        <img
+          src="/frame.webp"
+          alt="frame"
+          className="pointer-events-none relative z-10 ml-5 h-120 w-330"
+        />
+      </div>
     </section>
   );
 }
