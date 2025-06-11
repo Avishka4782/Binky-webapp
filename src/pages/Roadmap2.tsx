@@ -26,7 +26,7 @@ function Roadmap2() {
         <img
           src="/rabbit03.webp"
           alt="Rabbit Image"
-          className="absolute right-58 -bottom-10 h-75 w-70"
+          className="absolute right-55 -bottom-22 h-88 w-75"
         />
         <img src="/Union.webp" alt="Union Image" className="absolute left-90 -mt-82 h-25 w-110" />
         <div className="font-skrap absolute -top-74 left-99 z-20 text-3xl">
@@ -34,11 +34,11 @@ function Roadmap2() {
         </div>
       </div>
       <div className="relative z-20 flex">
-        <img src="/buynow.gif" alt="Buy Now Gif" className="absolute -top-15 left-24 w-50" />
+        <img src="/buynow.gif" alt="Buy Now Gif" className="absolute -top-2 left-24 w-50" />
       </div>
 
       {/*image as a divider*/}
-      <div className="absolute bottom-10 left-198 z-15 flex w-[117vw] -translate-x-1/2 overflow-hidden">
+      <div className="absolute left-198 z-15 flex w-[117vw] -translate-x-1/2 overflow-hidden">
         {[...Array(3)].map((_, idx) => (
           <img
             key={idx}

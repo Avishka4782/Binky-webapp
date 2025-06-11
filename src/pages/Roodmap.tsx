@@ -7,7 +7,11 @@ function Roodmap() {
       <section className="relative flex h-[100vh] w-full flex-col overflow-visible">
         <div className="relative justify-center overflow-visible">
           <div className="absolute -top-15 z-30 h-[120vh] w-full overflow-hidden">
-            <img src="/starbg.webp" alt="star bg" className="h-[110vh] w-full object-fill" />
+            <img
+              src="/starbg.webp"
+              alt="star bg"
+              className="h-[110vh] w-full object-fill opacity-50"
+            />
           </div>
           <img
             src="/rectangle.webp"
