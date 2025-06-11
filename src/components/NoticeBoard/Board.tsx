@@ -9,7 +9,7 @@ type BoardProps = {
 function Board({ text1, text2, rotation }: BoardProps) {
   return (
     <div className="relative">
-      <img src="/board.webp" alt="Notice Board 01" className="h-90 w-80" />
+      <img src="/board.webp" alt="Notice Board" className="h-80 w-70" />
       <div
         className={`absolute inset-0 top-22 grid h-20 grid-rows-2 items-center justify-center gap-x-2`}
         style={{ transform: `rotate(${rotation}deg)` }}

@@ -27,6 +27,15 @@
   src: url("./assets/fonts/OdorMeanChey-Regular.ttf") format("woff2");
 }
 
+@font-face {
+  font-family: "Skrapbook";
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 100%;
+  text-align: center;
+  src: url("./assets/fonts/Skrapbook-vmpmL.ttf") format("woff2");
+}
+
 @theme {
   --animate-wiggle: wiggle 1s ease-in-out infinite;
   @keyframes wiggle {
@@ -44,6 +53,8 @@
   --font-odor: "Odor Mean Chey", "sans-serif";
   --font-odorr: "Odor Mean Chey", "sans-serif";
   --font-snow: "Snow Blue", "sans-serif";
+  --font-skrap: "Skrapbook", "sans-serif";
+
   --color-nav-blue: #8dc4ff;
   --color-light_brown: #f39c12;
 }

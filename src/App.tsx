@@ -1,4 +1,5 @@
 import About from "./pages/About";
+import Gallery from "./pages/Gallery";
 import Hero from "./pages/Hero";
 import Partners from "./pages/Partners";
 import Roodmap from "./pages/Roodmap";
@@ -12,6 +13,7 @@ function App() {
       <Partners />
       <Tokenomics />
       <Roodmap />
+      <Gallery />
     </>
   );
 }
