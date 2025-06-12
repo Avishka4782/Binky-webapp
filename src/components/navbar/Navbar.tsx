@@ -5,13 +5,13 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="md:bg-nav-blue mx-auto mt-5 flex w-full max-w-[1420px] flex-col items-center overflow-x-hidden rounded-[40px] bg-white pl-2 md:mt-5 md:h-[100px] md:flex-row md:justify-between">
+    <header className="md:bg-nav-blue mx-auto flex h-[61px] w-full max-w-[1420px] flex-col items-center overflow-x-hidden bg-white p-2 md:mt-5 md:h-[100px] md:flex-row md:justify-between md:rounded-[40px]">
       {/* Left section: Logo */}
       <div className="ml-4 flex w-full basis-[20%] items-center justify-between md:w-1/2 md:justify-start">
         <img
           src="logo.webp"
           alt="Logo"
-          className="h-[80px] w-[80px] rounded-full transition-transform duration-300 ease-in-out hover:scale-110"
+          className="h-[46px] w-[46px] rounded-full transition-transform duration-300 ease-in-out hover:scale-110 sm:h-[80px] sm:w-[80px]"
         />
         {/* Hamburger only on small screens */}
         <button
@@ -21,10 +21,10 @@ function Navbar() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
-            viewBox="0 0 24 24"
+            viewBox="0 0 28 28"
             strokeWidth={3}
             stroke="currentColor"
-            className="h-9 w-9"
+            className="h-10 w-14"
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 6h18M3 12h18M3 18h18" />
           </svg>
