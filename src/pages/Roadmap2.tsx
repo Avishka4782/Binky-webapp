@@ -1,15 +1,15 @@
 function Roadmap2() {
   return (
-    <section className="relative h-screen w-full">
+    <section className="relative h-screen w-full overflow-visible">
       {/* Colored background block */}
-      <div className="bg-nav-blue absolute inset-0 -top-19 z-0 h-90" />
+      <div className="bg-nav-blue absolute inset-0 -top-19 z-0 h-85" />
 
       {/* Background image layer on top */}
       <div
-        className="absolute inset-0 -top-14 z-10 bg-center bg-no-repeat"
+        className="absolute inset-0 -top-10 z-10 overflow-visible bg-center bg-no-repeat"
         style={{
           backgroundImage: "url('/bg03.webp')",
-          backgroundSize: "110% 100%",
+          backgroundSize: "110% 105%",
         }}
       >
         {/* Content goes here */}
@@ -26,19 +26,19 @@ function Roadmap2() {
         <img
           src="/rabbit03.webp"
           alt="Rabbit Image"
-          className="absolute right-55 -bottom-22 h-88 w-75"
+          className="absolute right-67 -bottom-22 h-88 w-75"
         />
         <img src="/Union.webp" alt="Union Image" className="absolute left-90 -mt-82 h-25 w-110" />
         <div className="font-skrap absolute -top-74 left-99 z-20 text-3xl">
           0x71297312753EA7A2570a5a3278eD
         </div>
       </div>
-      <div className="relative z-20 flex">
-        <img src="/buynow.gif" alt="Buy Now Gif" className="absolute -top-2 left-24 w-50" />
+      <div className="relative z-30 flex">
+        <img src="/buynow.gif" alt="Buy Now Gif" className="absolute -top-2 left-25 w-50" />
       </div>
 
       {/*image as a divider*/}
-      <div className="absolute left-198 z-15 flex w-[117vw] -translate-x-1/2 overflow-hidden">
+      <div className="absolute left-222 z-25 flex w-[120vw] -translate-x-1/2 overflow-hidden">
         {[...Array(3)].map((_, idx) => (
           <img
             key={idx}

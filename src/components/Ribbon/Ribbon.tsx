@@ -16,19 +16,19 @@ function Ribbon() {
         />
       </div>
       {/*Bottm Ribbon */}
-      <div className="relative -bottom-118">
+      <div className="relative -bottom-104">
         <img src="/rectangle04.webp" alt="Rectangle Img" className="w-full" />
         <div className="absolute top-4 w-full">
           <img src="/Binky02.webp" alt="Blinky Ribbon 2" />
         </div>
       </div>
-      <div className="absolute -top-6 -right-90">
+      <div className="absolute -top-6 -right-80">
         <img src="/rabbit04.webp" alt="Rabbit 04" className="h-220 w-180" />
       </div>
-      <div className="relative -top-72 left-30 h-auto w-216">
+      <div className="relative -top-86 left-30 h-auto w-216">
         <div className="flex flex-col">
           <div className="font-snow mb-10 text-center text-[80px] uppercase">join community</div>
-          <div className="font-odor mb-4 text-center text-[39px]">
+          <div className="font-odor mb-4 text-center text-[39px] font-bold">
             Become a part of the Binky family
           </div>
           <div className="font-odor mb-15 text-center text-3xl">

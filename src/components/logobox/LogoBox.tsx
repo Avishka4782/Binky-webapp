@@ -1,7 +1,7 @@
 function LogoBox() {
   return (
     <div className="h-70 w-3/4 grid-cols-2 grid-rows-2 flex-col content-center items-center justify-center bg-white">
-      <div className="absolute right-40 -mt-14">
+      <div className="absolute right-46 -mt-14">
         <img src="/snow.webp" alt="" className="w-40" />
       </div>
 

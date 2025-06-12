@@ -20,7 +20,7 @@
 }
 @font-face {
   font-family: "Odor Mean Chey";
-  font-weight: 400;
+
   font-size: 28px;
   line-height: 50%;
   text-align: center;
@@ -34,6 +34,16 @@
   line-height: 100%;
   text-align: center;
   src: url("./assets/fonts/Skrapbook-vmpmL.ttf") format("woff2");
+}
+@font-face {
+  font-family: Cambay;
+  font-weight: 700;
+  font-size: 20px;
+  leading-trim: Cap height;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  src: url("./assets/fonts/OdorMeanChey-Regular.ttf") format("woff2");
 }
 
 @theme {
@@ -54,10 +64,12 @@
   --font-odorr: "Odor Mean Chey", "sans-serif";
   --font-snow: "Snow Blue", "sans-serif";
   --font-skrap: "Skrapbook", "sans-serif";
+  --font-cambay: Cambay, "sans-serif";
 
   --color-nav-blue: #8dc4ff;
   --color-light_brown: #f39c12;
   --color-bg_gray: #d9d9d9;
+  --color-exgray: #999999;
 }
 html,
 body {

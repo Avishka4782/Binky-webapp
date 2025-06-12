@@ -2,18 +2,18 @@ import Navbar from "../components/navbar/Navbar";
 
 function Hero() {
   return (
-    <section
-      className="relative flex min-h-screen w-full flex-col bg-cover bg-center"
-      style={{ backgroundImage: "url('/bg01.webp')" }}
-    >
+    <section className="overflow-hiddenr relative flex h-[100vh] w-full flex-col">
+      {/*style={{ backgroundImage: "url('/bg01.webp')" }}*/}
+      <div
+        className="absolute inset-0 bg-cover bg-[center_-180px] bg-no-repeat"
+        style={{ backgroundImage: "url('/bg01.webp')" }}
+      ></div>
       <div className="z-50">
         <Navbar />
       </div>
-
       <div className="font-snow hover:animate-wiggle absolute top-2/5 left-5/12 h-max w-max text-9xl text-black">
         <span className="">BINKY</span>
       </div>
-
       <div className="absolute top-2/3 left-5/12 flex w-max flex-row justify-between text-black">
         <div className="font-odorr -ml-4 w-65 p-1 text-center">
           <p>Hop into a world of rewards, innovation, and community-driven growth.</p>
@@ -23,16 +23,14 @@ function Hero() {
         </div>
       </div>
 
-      <div className="absolute top-105 left-42 z-20 w-39.5">
+      <div className="absolute top-76 left-36 z-20 w-40">
         <img src="/snowman.webp" alt="SnowMan" />
       </div>
-
-      <div className="absolute top-70 left-9/12 z-20 h-100 w-80">
-        <img src="/snowrabbit.webp" alt="SnowMan" className="h-100" />
+      <div className="absolute top-46 left-9/12 z-20 h-96 w-80">
+        <img src="/snowrabbit.webp" alt="SnowMan" />
       </div>
-
       {/*image as a divider*/}
-      <div className="absolute bottom-[-160px] left-1/2 z-15 -translate-x-1/2 overflow-hidden">
+      <div className="absolute bottom-[-172px] left-172 z-15 -translate-x-1/2 overflow-hidden">
         <img
           src="/cloud.png"
           alt="Cloud Divider"
