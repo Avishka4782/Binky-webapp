@@ -13,7 +13,7 @@ function Hero() {
           <img
             src="/snow.gif"
             alt="Second GIF"
-            className="h-[816px] w-[414px] opacity-50 sm:h-[100vw] sm:w-full"
+            className="h-[816px] w-[414px] opacity-50 sm:h-[60vw] sm:w-full"
           />
         </div>
       </div>
@@ -42,10 +42,10 @@ function Hero() {
         </div>
       </div>
 
-      <div className="absolute top-[66vh] left-[4vw] z-20 w-[22vw] sm:top-[66vh] sm:left-[6vw] sm:w-[15vw] lg:top-[62vh] lg:left-[7vw] lg:w-[13vw] xl:top-[62vh] xl:left-[9vw] xl:w-[12vw]">
+      <div className="absolute top-[66vh] left-[4vw] z-20 w-[22vw] sm:top-[66vh] sm:left-[6vw] sm:w-[15vw] lg:top-[62vh] lg:left-[7vw] lg:w-[13vw] xl:top-[64vh] xl:left-[11vw] xl:w-[10vw] 2xl:top-[68vh]">
         <img src="/snowman.webp" alt="SnowMan" />
       </div>
-      <div className="absolute top-[70vh] left-[51vw] z-20 w-[50vw] sm:top-[54vh] sm:left-[66vw] sm:w-[32vw] lg:top-[40vh] lg:left-[70vw] lg:w-[30vw] xl:top-[36vh] xl:left-[70vw] xl:w-[28vw]">
+      <div className="absolute top-[70vh] left-[51vw] z-20 w-[50vw] sm:top-[54vh] sm:left-[66vw] sm:w-[32vw] lg:top-[40vh] lg:left-[70vw] lg:w-[30vw] xl:top-[30vh] xl:left-[72vw] xl:w-[27vw] 2xl:top-[44vh]">
         <img src="/snowrabbit.webp" alt="SnowRabbit" />
       </div>
       {/*image as a divider*/}

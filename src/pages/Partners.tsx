@@ -2,10 +2,10 @@ import LogoBox from "../components/logobox/LogoBox.tsx";
 
 function partners() {
   return (
-    <section className='"relative bg-light_brown flex h-120 w-full flex-col bg-cover'>
+    <section className='"relative bg-light_brown sm:120 flex h-110 w-full flex-col bg-cover xl:h-120 2xl:h-160'>
       <div className="flex w-full flex-col">
-        <div className="font-snow relative mt-3 mb-6">
-          <p className="upper m pt-10 text-center text-6xl">Partners</p>
+        <div className="font-snow relative mt-[7vh] mb-[5vh] xl:mt-[9vh]">
+          <p className="upper text-center text-4xl md:text-5xl xl:text-[64px]">Partners</p>
         </div>
         <div className="flex items-center justify-center">
           <LogoBox />

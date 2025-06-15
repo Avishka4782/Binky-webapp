@@ -11,7 +11,7 @@ function Navbar() {
         <img
           src="logo.webp"
           alt="Logo"
-          className="h-[46px] w-[46px] rounded-full transition-transform duration-300 ease-in-out hover:scale-110 md:h-[50px] md:w-[50px] md:pt-[1vh] lg:pt-[1vh] xl:h-[69px] xl:w-[69px]"
+          className="h-[46px] w-[46px] rounded-full transition-transform duration-300 ease-in-out hover:scale-110 md:h-[50px] md:w-[50px] md:pt-[1vh] lg:pt-[1vh] xl:h-[66px] xl:w-[66px]"
         />
         {/* Hamburger only on small screens */}
         <button
