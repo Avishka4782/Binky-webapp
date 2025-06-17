@@ -1,6 +1,6 @@
 function Iconbar() {
   return (
-    <div className="grid w-120 grid-cols-4 gap-x-10">
+    <div className="grid w-[40vw] grid-cols-4 gap-x-4 md:gap-x-8 lg:w-[32vw] lg:gap-x-6 xl:w-[30vw] xl:gap-x-12">
       <img src="/icon01.webp" alt="Icon 01" className="" />
       <img src="/icon02.webp" alt="Icon 02" />
       <img src="/icon03.webp" alt="Icon 03" />

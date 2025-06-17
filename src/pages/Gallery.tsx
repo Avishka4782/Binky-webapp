@@ -16,18 +16,24 @@ const photoSet2 = [
 ];
 function Gallery() {
   return (
-    <section className="bg-bg_gray relative z-20 h-[240vh] w-full">
+    <section className="bg-bg_gray relative z-20 h-[108vh] w-full sm:h-[130vh] md:h-[150vh] lg:h-[170vh]">
       <div className="relative">
-        <img src="/snow02.webp" alt="Background Img" className="h-[170vh] opacity-60" />
+        <img
+          src="/snow02.webp"
+          alt="Background Img"
+          className="h-[104vh] opacity-60 sm:h-[110vh] md:h-[120vh] lg:h-[154vh]"
+        />
       </div>
       <div className="absolute inset-0">
         {/* Content goes here*/}
 
-        <div className="font-snow mt-20 mb-10 text-center text-6xl">Gallery</div>
-        <div className="relative -left-[180px] grid w-[120%] items-center p-4">
+        <div className="font-snow mt-15 mb-9 text-center text-4xl md:text-5xl lg:mt-18 lg:text-[52px] xl:mt-26 xl:text-[78px]">
+          Gallery
+        </div>
+        <div className="relative -left-[90px] grid w-[180vw] items-center p-2 md:-left-[100px] md:w-[120vw] lg:-left-[136px] xl:-left-[12vw]">
           <Photoframes photos={photoSet1} />
         </div>
-        <div className="relative right-[40px] mt-10 grid w-[120%] items-center p-4">
+        <div className="relative right-[90px] mt-[3vh] grid w-[180vw] items-center p-2 md:right-[50px] md:w-[120vw] lg:right-[32px] lg:mt-[5vh] xl:right-[3vw]">
           <Photoframes photos={photoSet2} />
         </div>
         <div className="relative">

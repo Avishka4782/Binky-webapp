@@ -1,8 +1,12 @@
 function LogoBox() {
   return (
-    <div className="h-[50vh] w-[74vw] flex-col content-center items-center justify-center rounded-[6px] bg-white md:w-[80vw] xl:w-[90vw]">
-      <div className="absolute right-[11vw] -mt-[8vh] md:right-[8.5vw] lg:right-[9vw] lg:-mt-[9vh] xl:right-[4vw]">
-        <img src="/snow.webp" alt="" className="w-[30vw] md:w-[20vw] lg:w-[16vw] xl:w-[14vw]" />
+    <div className="relative h-[50vh] w-[74vw] flex-col content-center items-center justify-center rounded-[6px] bg-white md:w-[80vw] xl:w-[90vw]">
+      <div className="-xl:right-[1vw] absolute -right-[1.5vw] -mt-[8vh] lg:-mt-[9vh]">
+        <img
+          src="/snow.webp"
+          alt=""
+          className="w-[30vw] sm:w-[25vw] md:w-[20vw] lg:w-[16vw] xl:w-[14vw]"
+        />
       </div>
 
       <div className="grid h-[38vh] grid-cols-1 grid-rows-4 gap-y-[2vh] md:grid-cols-2 md:grid-rows-2 md:gap-x-1 md:gap-y-[1vh]">
