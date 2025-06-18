@@ -16,7 +16,7 @@ const photoSet2 = [
 ];
 function Gallery() {
   return (
-    <section className="bg-bg_gray relative z-20 h-[108vh] w-full sm:h-[130vh] md:h-[150vh] lg:h-[170vh]">
+    <section className="bg-bg_gray relative z-20 h-[110vh] w-full sm:h-[130vh] md:h-[150vh] lg:h-[170vh]">
       <div className="relative">
         <img
           src="/snow02.webp"

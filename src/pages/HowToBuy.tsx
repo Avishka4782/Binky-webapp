@@ -29,7 +29,7 @@ function HowToBuy() {
         </div>
       </div>
       {/*image as a divider*/}
-      <div className="absolute bottom-[-120px] -left-12 z-10 overflow-hidden sm:bottom-[-132px] sm:-left-8 md:bottom-[-32vh] md:-left-10 lg:bottom-[-39vh] lg:-left-16">
+      <div className="absolute bottom-[-120px] -left-12 z-10 overflow-hidden sm:bottom-[-132px] sm:-left-8 md:bottom-[-32vh] md:-left-10 lg:bottom-[-39vh] lg:-left-16 xl:-left-32">
         <img
           src="/divider03.webp"
           alt="Divider Image 03"
