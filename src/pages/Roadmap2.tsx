@@ -6,7 +6,7 @@ function Roadmap2() {
 
       {/* Background image layer on top */}
       <div
-        className="absolute inset-0 -top-30 z-10 scale-x-[-1] overflow-visible bg-[length:200%] bg-[80%_0%] bg-no-repeat sm:bg-[length:130%] sm:bg-[80%_20%] md:scale-x-[1] md:bg-[length:140%] md:bg-[50%_80%] lg:bg-[length:110%] lg:bg-[40%_10%] xl:bg-[length:110%] xl:bg-[40%_0%]"
+        className="absolute inset-0 -top-30 z-10 scale-x-[-1] overflow-visible bg-[length:200%] bg-[80%_0%] bg-no-repeat sm:bg-[length:130%] sm:bg-[80%_20%] md:scale-x-[1] md:bg-[length:140%] md:bg-[50%_80%] lg:bg-cover 2xl:bg-cover"
         style={{
           backgroundImage: "url('/bg03.webp')",
         }}

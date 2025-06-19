@@ -5,13 +5,13 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="md:bg-nav-blue flex h-[61px] w-[100vw] flex-col items-center overflow-x-hidden bg-white pt-[7px] pl-[11px] md:h-[10vh] md:max-w-[90vw] md:flex-row md:justify-between md:rounded-[40px] md:pt-[0vh] md:pr-[1vw] md:pb-[1vh] md:pl-[1.5vw] lg:h-[12vh] lg:w-full lg:max-w-[95vw] lg:pt-[1vh] lg:pr-[3vw] lg:pb-[1vh] lg:pl-[2vw] xl:h-[12vh] xl:rounded-[60px] xl:pt-0 xl:pr-5 xl:pb-1 xl:pl-3 2xl:h-34 2xl:pr-[2vw] 2xl:pb-1 2xl:pl-[1vw]">
+    <header className="md:bg-nav-blue flex h-[61px] w-[100vw] flex-col items-center overflow-x-hidden bg-white pt-[7px] pl-[11px] md:h-16 md:max-w-[90vw] md:flex-row md:justify-between md:rounded-[40px] md:pt-0 md:pr-2 md:pb-2.5 md:pl-3 lg:h-20 lg:w-full lg:max-w-[95vw] lg:pr-6 lg:pb-1 lg:pl-4 xl:h-26 xl:rounded-[60px] xl:pt-0 xl:pr-8 xl:pb-2 xl:pl-6 2xl:h-30 2xl:pr-10 2xl:pb-1 2xl:pl-6">
       {/* Left section: Logo */}
-      <div className="flex w-full items-center justify-between md:w-[52px] md:justify-start xl:w-20 2xl:w-30">
+      <div className="flex w-full items-center justify-between md:w-20 md:justify-start xl:w-20 2xl:w-30">
         <img
           src="logo.webp"
           alt="Logo"
-          className="h-[46px] w-[46px] rounded-full transition-transform duration-300 ease-in-out hover:scale-110 md:h-[50px] md:w-[50px] md:pt-[1vh] lg:pt-[1vh] xl:h-[69px] xl:w-[69px]"
+          className="h-[46px] w-[46px] rounded-full transition-transform duration-300 ease-in-out hover:scale-110 md:h-[54px] md:w-[54px] lg:pt-[1vh] xl:h-[69px] xl:w-[69px]"
         />
         {/* Hamburger only on small screens */}
         <button
