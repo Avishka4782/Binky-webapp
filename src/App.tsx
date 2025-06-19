@@ -5,6 +5,7 @@ import HowToBuy from "./pages/HowToBuy";
 import OurProducts from "./pages/OurProducts";
 import Partners from "./pages/Partners";
 import Roodmap from "./pages/Roodmap";
+
 import Tokenomics from "./pages/Tokenomics";
 
 function App() {

@@ -2,12 +2,12 @@ import BuyCards from "../components/Buying Cards/BuyCards";
 
 function HowToBuy() {
   return (
-    <section className="bg-exgray relative h-[350vh] w-full md:h-[206vh] lg:h-[234vh] xl:h-[250vh]">
-      <div className="absolute top-[102vh] left-6 flex w-[100vw] flex-col sm:top-[90vh] lg:top-[110vh] xl:top-[100vh]">
-        <div className="font-snow mb-10 flex h-fit w-[80vw] justify-end text-4xl uppercase sm:mr-10 md:text-[44px] lg:text-[52px] xl:mb-16 xl:text-[68px]">
+    <section className="bg-exgray relative h-full w-full pb-474 sm:pb-498 md:pb-320 lg:pb-320 xl:pb-460 2xl:pb-620">
+      <div className="absolute top-130 left-6 flex w-full flex-col sm:top-120 md:top-150 lg:top-140 xl:top-190 2xl:top-270">
+        <div className="font-snow mb-10 flex h-fit justify-center text-4xl uppercase sm:mr-10 md:top-150 md:text-5xl lg:mr-30 lg:justify-end lg:text-[48px] xl:mb-16 xl:text-[64px] 2xl:text-[96px]">
           How to buy
         </div>
-        <div className="grid w-[377px] grid-rows-3 gap-10 sm:ml-[6vw] sm:w-[80vw] md:ml-[2vw] md:w-[90vw] md:grid-cols-3 md:gap-6 lg:gap-8 xl:w-[90vw] xl:gap-10">
+        <div className="grid w-94 grid-rows-3 gap-10 sm:ml-10 sm:w-130 md:ml-3 md:w-175 md:grid-cols-3 md:gap-6 lg:ml-6 lg:w-230 lg:gap-8 xl:ml-8 xl:w-330 xl:gap-10 2xl:ml-20 2xl:w-428 2xl:gap-12">
           <div>
             <BuyCards
               text1="Set Up a Wallet"
@@ -29,11 +29,11 @@ function HowToBuy() {
         </div>
       </div>
       {/*image as a divider*/}
-      <div className="absolute bottom-[-120px] -left-12 z-10 overflow-hidden sm:bottom-[-132px] sm:-left-8 md:bottom-[-32vh] md:-left-10 lg:bottom-[-39vh] lg:-left-16 xl:-left-32">
+      <div className="absolute bottom-[-142px] -left-12 z-10 overflow-hidden sm:-bottom-40 sm:-left-8 md:-bottom-44 md:-left-10 lg:-bottom-46 lg:-left-16 xl:-bottom-58 xl:-left-32 2xl:-bottom-110">
         <img
           src="/divider03.webp"
           alt="Divider Image 03"
-          className="pointer-events-none h-[30vh] w-auto max-w-none sm:h-[34vh] md:h-[44vh] lg:h-[48vh] lg:w-[120vw]"
+          className="pointer-events-none h-44 w-auto max-w-none sm:h-50 md:h-60 lg:h-60 lg:w-300 xl:h-80 xl:w-400 2xl:h-140 2xl:w-520"
         />
       </div>
     </section>

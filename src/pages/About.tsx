@@ -14,7 +14,7 @@ function About() {
           backgroundImage: "url('/dottedgmb.webp')",
         }}
       ></div>
-      <div className="font-snow relative z-10 pt-30 sm:mt-12 md:mt-16 lg:mt-4 2xl:mt-29">
+      <div className="font-snow relative z-10 pt-20 sm:mt-12 md:mt-16 lg:mt-4 xl:mt-15 2xl:mt-29">
         <p className="text-center text-4xl sm:text-5xl lg:text-[48px] xl:text-[64px] 2xl:text-[96px]">
           ABOUT
         </p>

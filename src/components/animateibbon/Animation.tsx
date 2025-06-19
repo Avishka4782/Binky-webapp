@@ -1,14 +1,16 @@
 function Animation() {
   return (
-    <div className="relative -ml-6 flex h-[40px] w-[110%] items-center overflow-hidden bg-amber-400 sm:h-12 md:h-16 xl:h-24">
+    <div className="relative -ml-6 flex h-[40px] w-[110%] items-center overflow-hidden bg-amber-400 sm:h-12 md:h-16 xl:h-24 2xl:h-36">
       <div className="animate-loop-scroll absolute flex">
         {/* Repeat the content once for seamless looping */}
         {[...Array(3)].map((_, index) => (
-          <div key={index} className="flex items-center gap-4 px-8">
-            <img src="/Star.webp" alt="" className="h-6" />
-            <div className="font-odor text-[14px] md:text-[20px] xl:text-[36px]">Blinky</div>
-            <img src="/Star.webp" alt="" className="h-6" />
-            <div className="font-odor text-[14px] md:text-[20px] xl:text-[36px]">
+          <div key={index} className="flex items-center gap-4 px-8 2xl:gap-8 2xl:px-18">
+            <img src="/Star.webp" alt="" className="h-6 2xl:h-12" />
+            <div className="font-odor text-[14px] md:text-[20px] xl:text-[36px] 2xl:text-[48px]">
+              Blinky
+            </div>
+            <img src="/Star.webp" alt="" className="h-6 2xl:h-12" />
+            <div className="font-odor text-[14px] md:text-[20px] xl:text-[36px] 2xl:text-[48px]">
               Blinky Hop into Fun and Adventure
             </div>
           </div>

@@ -7,16 +7,16 @@ const ProductTag: React.FC<ProductTagProps> = ({ imgSrc, description }) => {
     <div className="flex flex-col items-center">
       <div className="relative">
         {/* Background gif */}
-        <img src="/product.gif" alt="Gif" className="h-[427px] md:h-[50vh] lg:h-[60vh]" />
+        <img src="/product.gif" alt="Gif" className="h-[427px] md:h-70 lg:h-85 2xl:h-140" />
 
         {/* Overlay image */}
         <img
           src={imgSrc}
           alt="Product Image"
-          className="absolute top-18 left-23 flex h-[244px] items-center justify-center md:top-14 md:left-16 md:h-[25vh] lg:top-17 lg:left-22 lg:h-[32vh] xl:top-22 xl:left-32 xl:h-[32vh]"
+          className="absolute top-18 left-23 flex h-[244px] items-center justify-center md:top-14 md:left-16 md:h-36 lg:top-17 lg:left-22 lg:h-45 xl:top-15 xl:left-22 xl:h-48 2xl:top-40 2xl:left-44 2xl:h-60"
         />
       </div>
-      <div className="font-odor mt-10 w-[70vw] text-center text-[18px] sm:w-[60vw] md:mt-6 md:w-[26vw] md:text-[16px] xl:w-[23vw] xl:text-[24px]">
+      <div className="font-odor mt-10 w-78 text-center text-[18px] md:mt-6 md:w-50 md:text-[16px] lg:w-70 xl:w-100 xl:text-[24px]">
         {description}
       </div>
     </div>
